@@ -1,0 +1,8 @@
+# dirs
+node_modules/
+
+# files
+gulpfile.js
+package.json
+
+_helper.css

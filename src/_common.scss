@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.column {
+    border: 1px solid #eee;
+    margin: 7px 0;
+    text-align: center;
+    line-height: 50px;
+    font-size: 2rem;
+    background-color: #26a69a;
+    color: white;
+    padding: 0.3rem;
+
+    /* keep original sizes */
+    flex-grow: initial;
+}
+
+.row {
+    margin-bottom: 2rem;
+    background-color: #F4F4F4;
+}
+
+/* Viewport-based height */
+.vh5   { height: 5vh;  }
+.vh10  { height: 10vh; }
+.vh15  { height: 15vh; }
+.vh20  { height: 20vh; }
+.vh25  { height: 25vh; }
+.vh30  { height: 30vh; }
+.vh35  { height: 35vh; }
+.vh40  { height: 40vh; }
+.vh45  { height: 45vh; }
+.vh50  { height: 50vh; }
+.vh55  { height: 55vh; }
+.vh60  { height: 60vh; }
+.vh65  { height: 65vh; }
+.vh70  { height: 70vh; }
+.vh75  { height: 75vh; }
+.vh80  { height: 80vh; }
+.vh85  { height: 85vh; }
+.vh90  { height: 90vh; }
+.vh95  { height: 95vh; }
+.vh100 { height: 100vh;}

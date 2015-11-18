@@ -1,0 +1,60 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <title>KP - Positioning flexbox</title>
+
+    <link href="../../dist/main.css" rel="stylesheet" />
+
+    <!-- Font -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,900,300,100' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+    <h1>Positioning</h1>
+
+    <div class="row center">
+        <div class="column vh10 s-4 top-left">.top-left</div>
+        <div class="column vh10 s-4 top-center">.top-center</div>
+        <div class="column vh10 s-4 top-right">.top-right</div>
+
+        <div class="column vh10 s-4 center-left">.center-left</div>
+        <div class="column vh10 s-4 center">.center</div>
+        <div class="column vh10 s-4 center-right">.center-right</div>
+
+        <div class="column vh10 s-4 bottom-left">.bottom-left</div>
+        <div class="column vh10 s-4 bottom-center">.bottom-center</div>
+        <div class="column vh10 s-4 bottom-right">.bottom-right</div>
+    </div>
+
+    <p class="mb2">Alternatively, you can add any of the above classes to a parent <code>.row</code> or <code>.column</code> to align it's content.</p>
+    <div class="row center-right">
+        <div class="column s-2">.column</div>
+        <div class="column s-2">.column</div>
+    </div>
+
+    <p class="mb2">Distribute items with <code>.space-between</code></p>
+    <div class="row center space-between">
+        <div class="column s-2">.column</div>
+        <div class="column s-2">.column</div>
+    </div>
+
+    <p class="mb2">or <code>.space-around</code></p>
+    <div class="row center space-around">
+        <div class="column s-2">.column</div>
+        <div class="column s-2">.column</div>
+    </div>
+
+    <!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+    });
+</script>
+
+</body>
+</html>
