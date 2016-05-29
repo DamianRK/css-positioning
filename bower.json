@@ -1,0 +1,20 @@
+{
+  "name": "css-positioning",
+  "version": "1.0.0",
+  "homepage": "https://github.com/DamianRK/css-positioning",
+  "authors": [
+    "Damian B <damian@websolutionsnyc.com>"
+  ],
+  "description": "CSS positioning by flexbox",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
