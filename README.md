@@ -3,7 +3,7 @@ CSS responsive positioning with Flexbox
 
 ## See
 	
-	/src/_positioning.scss
+	/skin/frontend/rwd/wsnyc/src/scss/vendor/_positioning.scss
 
 ## Example
 
